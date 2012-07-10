@@ -15,7 +15,8 @@ public class HelloWorld extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println("Hello!");
+        String name = req.getParameter("name");
+        resp.getWriter().println("Hello! "+name);
     }
 
 
