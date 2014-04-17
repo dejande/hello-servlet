@@ -2,7 +2,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <!-- Parent -->
 
-
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.openblend</groupId>
     <artifactId>hello-server</artifactId>
@@ -10,7 +9,6 @@
     <packaging>war</packaging>
     <name>Hello servlet</name>
     <description>Servlet hello world</description>
-
 
     <build>
         <plugins>
@@ -68,4 +66,4 @@
     </repositories>
 
 </project>
-
+asd
