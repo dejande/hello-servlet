@@ -9,7 +9,6 @@
     <packaging>war</packaging>
     <name>Hello servlet</name>
     <description>Servlet hello world</description>
-
     <build>
         <plugins>
 
